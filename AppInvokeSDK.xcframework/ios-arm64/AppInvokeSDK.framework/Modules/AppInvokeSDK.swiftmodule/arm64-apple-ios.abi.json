@@ -1,0 +1,4761 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AIDelegate",
+        "printedName": "AIDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "openPaymentWebVC",
+            "printedName": "openPaymentWebVC(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppInvokeSDK@objc(pl)AIDelegate(im)openPaymentWebVC:",
+            "mangledName": "$s12AppInvokeSDK10AIDelegateP16openPaymentWebVCyySo16UIViewControllerCSgF",
+            "moduleName": "AppInvokeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppInvokeSDK.AIDelegate>",
+            "sugared_genericSig": "<Self where Self : AppInvokeSDK.AIDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFinish",
+            "printedName": "didFinish(with:response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AIPaymentStatus",
+                "printedName": "AppInvokeSDK.AIPaymentStatus",
+                "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppInvokeSDK@objc(pl)AIDelegate(im)didFinishWith:response:",
+            "mangledName": "$s12AppInvokeSDK10AIDelegateP9didFinish4with8responseyAA15AIPaymentStatusO_SDySSypGtF",
+            "moduleName": "AppInvokeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppInvokeSDK.AIDelegate>",
+            "sugared_genericSig": "<Self where Self : AppInvokeSDK.AIDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@AppInvokeSDK@objc(pl)AIDelegate",
+        "mangledName": "$s12AppInvokeSDK10AIDelegateP",
+        "moduleName": "AppInvokeSDK",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "objc_name": "AIDelegate",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AIPaymentStatus",
+        "printedName": "AIPaymentStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppInvokeSDK.AIPaymentStatus.Type) -> AppInvokeSDK.AIPaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AIPaymentStatus",
+                    "printedName": "AppInvokeSDK.AIPaymentStatus",
+                    "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppInvokeSDK.AIPaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AIPaymentStatus",
+                        "printedName": "AppInvokeSDK.AIPaymentStatus",
+                        "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus@AIPaymentStatusSuccess",
+            "mangledName": "$s12AppInvokeSDK15AIPaymentStatusO7successyA2CmF",
+            "moduleName": "AppInvokeSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "failed",
+            "printedName": "failed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppInvokeSDK.AIPaymentStatus.Type) -> AppInvokeSDK.AIPaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AIPaymentStatus",
+                    "printedName": "AppInvokeSDK.AIPaymentStatus",
+                    "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppInvokeSDK.AIPaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AIPaymentStatus",
+                        "printedName": "AppInvokeSDK.AIPaymentStatus",
+                        "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus@AIPaymentStatusFailed",
+            "mangledName": "$s12AppInvokeSDK15AIPaymentStatusO6failedyA2CmF",
+            "moduleName": "AppInvokeSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "pending",
+            "printedName": "pending",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppInvokeSDK.AIPaymentStatus.Type) -> AppInvokeSDK.AIPaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AIPaymentStatus",
+                    "printedName": "AppInvokeSDK.AIPaymentStatus",
+                    "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppInvokeSDK.AIPaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AIPaymentStatus",
+                        "printedName": "AppInvokeSDK.AIPaymentStatus",
+                        "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus@AIPaymentStatusPending",
+            "mangledName": "$s12AppInvokeSDK15AIPaymentStatusO7pendingyA2CmF",
+            "moduleName": "AppInvokeSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "cancel",
+            "printedName": "cancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppInvokeSDK.AIPaymentStatus.Type) -> AppInvokeSDK.AIPaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AIPaymentStatus",
+                    "printedName": "AppInvokeSDK.AIPaymentStatus",
+                    "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppInvokeSDK.AIPaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AIPaymentStatus",
+                        "printedName": "AppInvokeSDK.AIPaymentStatus",
+                        "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus@AIPaymentStatusCancel",
+            "mangledName": "$s12AppInvokeSDK15AIPaymentStatusO6cancelyA2CmF",
+            "moduleName": "AppInvokeSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppInvokeSDK.AIPaymentStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AIPaymentStatus",
+                    "printedName": "AppInvokeSDK.AIPaymentStatus",
+                    "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AppInvokeSDK15AIPaymentStatusO8rawValueACSgSi_tcfc",
+            "mangledName": "$s12AppInvokeSDK15AIPaymentStatusO8rawValueACSgSi_tcfc",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AppInvokeSDK15AIPaymentStatusO8rawValueSivp",
+            "mangledName": "$s12AppInvokeSDK15AIPaymentStatusO8rawValueSivp",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AppInvokeSDK15AIPaymentStatusO8rawValueSivg",
+                "mangledName": "$s12AppInvokeSDK15AIPaymentStatusO8rawValueSivg",
+                "moduleName": "AppInvokeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@AppInvokeSDK@E@AIPaymentStatus",
+        "mangledName": "$s12AppInvokeSDK15AIPaymentStatusO",
+        "moduleName": "AppInvokeSDK",
+        "objc_name": "AIPaymentStatus",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AIHandler",
+        "printedName": "AIHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isUserLoggedIn",
+            "printedName": "isUserLoggedIn(merchantId:urlScheme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppInvokeSDK@objc(cs)AIHandler(im)isUserLoggedInMerchantId:urlScheme:",
+            "mangledName": "$s12AppInvokeSDK9AIHandlerC14isUserLoggedIn10merchantId9urlSchemeySS_SStF",
+            "moduleName": "AppInvokeSDK",
+            "objc_name": "isUserLoggedInMerchantId:urlScheme:",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBridgeName",
+            "printedName": "setBridgeName(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppInvokeSDK@objc(cs)AIHandler(im)setBridgeNameWithName:",
+            "mangledName": "$s12AppInvokeSDK9AIHandlerC13setBridgeName4nameySS_tF",
+            "moduleName": "AppInvokeSDK",
+            "objc_name": "setBridgeNameWithName:",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "restrictAppInvokeFlow",
+            "printedName": "restrictAppInvokeFlow(restrict:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppInvokeSDK@objc(cs)AIHandler(im)restrictAppInvokeFlowWithRestrict:",
+            "mangledName": "$s12AppInvokeSDK9AIHandlerC08restrictaB4Flow0E0ySb_tF",
+            "moduleName": "AppInvokeSDK",
+            "objc_name": "restrictAppInvokeFlowWithRestrict:",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openPaytmRouter",
+            "printedName": "openPaytmRouter(merchantId:orderId:txnToken:amount:callbackUrl:delegate:environment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AIDelegate",
+                "printedName": "AppInvokeSDK.AIDelegate",
+                "usr": "c:@M@AppInvokeSDK@objc(pl)AIDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AIEnvironment",
+                "printedName": "AppInvokeSDK.AIEnvironment",
+                "usr": "c:@M@AppInvokeSDK@E@AIEnvironment"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppInvokeSDK@objc(cs)AIHandler(im)openPaytmRouterWithMerchantId:orderId:txnToken:amount:callbackUrl:delegate:environment:",
+            "mangledName": "$s12AppInvokeSDK9AIHandlerC15openPaytmRouter10merchantId05orderI08txnToken6amount11callbackUrl8delegate11environmentySS_S4SSgAA10AIDelegate_pAA13AIEnvironmentOtF",
+            "moduleName": "AppInvokeSDK",
+            "objc_name": "openPaytmRouterWithMerchantId:orderId:txnToken:amount:callbackUrl:delegate:environment:",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AIHandler",
+                "printedName": "AppInvokeSDK.AIHandler",
+                "usr": "c:@M@AppInvokeSDK@objc(cs)AIHandler"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AppInvokeSDK@objc(cs)AIHandler(im)init",
+            "mangledName": "$s12AppInvokeSDK9AIHandlerCACycfc",
+            "moduleName": "AppInvokeSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppInvokeSDK9AIHandlerC10sdkVersionSSyF",
+            "mangledName": "$s12AppInvokeSDK9AIHandlerC10sdkVersionSSyF",
+            "moduleName": "AppInvokeSDK",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AppInvokeSDK@objc(cs)AIHandler",
+        "mangledName": "$s12AppInvokeSDK9AIHandlerC",
+        "moduleName": "AppInvokeSDK",
+        "objc_name": "AIHandler",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AIEnvironment",
+        "printedName": "AIEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "production",
+            "printedName": "production",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppInvokeSDK.AIEnvironment.Type) -> AppInvokeSDK.AIEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AIEnvironment",
+                    "printedName": "AppInvokeSDK.AIEnvironment",
+                    "usr": "c:@M@AppInvokeSDK@E@AIEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppInvokeSDK.AIEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AIEnvironment",
+                        "printedName": "AppInvokeSDK.AIEnvironment",
+                        "usr": "c:@M@AppInvokeSDK@E@AIEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AppInvokeSDK@E@AIEnvironment@AIEnvironmentProduction",
+            "mangledName": "$s12AppInvokeSDK13AIEnvironmentO10productionyA2CmF",
+            "moduleName": "AppInvokeSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "staging",
+            "printedName": "staging",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppInvokeSDK.AIEnvironment.Type) -> AppInvokeSDK.AIEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AIEnvironment",
+                    "printedName": "AppInvokeSDK.AIEnvironment",
+                    "usr": "c:@M@AppInvokeSDK@E@AIEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppInvokeSDK.AIEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AIEnvironment",
+                        "printedName": "AppInvokeSDK.AIEnvironment",
+                        "usr": "c:@M@AppInvokeSDK@E@AIEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AppInvokeSDK@E@AIEnvironment@AIEnvironmentStaging",
+            "mangledName": "$s12AppInvokeSDK13AIEnvironmentO7stagingyA2CmF",
+            "moduleName": "AppInvokeSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppInvokeSDK.AIEnvironment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AIEnvironment",
+                    "printedName": "AppInvokeSDK.AIEnvironment",
+                    "usr": "c:@M@AppInvokeSDK@E@AIEnvironment"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AppInvokeSDK13AIEnvironmentO8rawValueACSgSi_tcfc",
+            "mangledName": "$s12AppInvokeSDK13AIEnvironmentO8rawValueACSgSi_tcfc",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AppInvokeSDK13AIEnvironmentO8rawValueSivp",
+            "mangledName": "$s12AppInvokeSDK13AIEnvironmentO8rawValueSivp",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AppInvokeSDK13AIEnvironmentO8rawValueSivg",
+                "mangledName": "$s12AppInvokeSDK13AIEnvironmentO8rawValueSivg",
+                "moduleName": "AppInvokeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@AppInvokeSDK@E@AIEnvironment",
+        "mangledName": "$s12AppInvokeSDK13AIEnvironmentO",
+        "moduleName": "AppInvokeSDK",
+        "objc_name": "AIEnvironment",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AIOFlavour",
+        "printedName": "AIOFlavour",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "routerSdk",
+            "printedName": "routerSdk",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppInvokeSDK.AIOFlavour.Type) -> AppInvokeSDK.AIOFlavour",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AIOFlavour",
+                    "printedName": "AppInvokeSDK.AIOFlavour",
+                    "usr": "s:12AppInvokeSDK10AIOFlavourO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppInvokeSDK.AIOFlavour.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AIOFlavour",
+                        "printedName": "AppInvokeSDK.AIOFlavour",
+                        "usr": "s:12AppInvokeSDK10AIOFlavourO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AppInvokeSDK10AIOFlavourO9routerSdkyA2CmF",
+            "mangledName": "$s12AppInvokeSDK10AIOFlavourO9routerSdkyA2CmF",
+            "moduleName": "AppInvokeSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "aioSdk",
+            "printedName": "aioSdk",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppInvokeSDK.AIOFlavour.Type) -> AppInvokeSDK.AIOFlavour",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AIOFlavour",
+                    "printedName": "AppInvokeSDK.AIOFlavour",
+                    "usr": "s:12AppInvokeSDK10AIOFlavourO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AppInvokeSDK.AIOFlavour.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AIOFlavour",
+                        "printedName": "AppInvokeSDK.AIOFlavour",
+                        "usr": "s:12AppInvokeSDK10AIOFlavourO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AppInvokeSDK10AIOFlavourO6aioSdkyA2CmF",
+            "mangledName": "$s12AppInvokeSDK10AIOFlavourO6aioSdkyA2CmF",
+            "moduleName": "AppInvokeSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppInvokeSDK.AIOFlavour?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AIOFlavour",
+                    "printedName": "AppInvokeSDK.AIOFlavour",
+                    "usr": "s:12AppInvokeSDK10AIOFlavourO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AppInvokeSDK10AIOFlavourO8rawValueACSgSi_tcfc",
+            "mangledName": "$s12AppInvokeSDK10AIOFlavourO8rawValueACSgSi_tcfc",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AppInvokeSDK10AIOFlavourO8rawValueSivp",
+            "mangledName": "$s12AppInvokeSDK10AIOFlavourO8rawValueSivp",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AppInvokeSDK10AIOFlavourO8rawValueSivg",
+                "mangledName": "$s12AppInvokeSDK10AIOFlavourO8rawValueSivg",
+                "moduleName": "AppInvokeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12AppInvokeSDK10AIOFlavourO",
+        "mangledName": "$s12AppInvokeSDK10AIOFlavourO",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "PRODUCTION_PG_DOMAIN",
+        "printedName": "PRODUCTION_PG_DOMAIN",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK20PRODUCTION_PG_DOMAINSSvp",
+        "mangledName": "$s12AppInvokeSDK20PRODUCTION_PG_DOMAINSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK20PRODUCTION_PG_DOMAINSSvg",
+            "mangledName": "$s12AppInvokeSDK20PRODUCTION_PG_DOMAINSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "STAGING_PG_DOMAIN",
+        "printedName": "STAGING_PG_DOMAIN",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK17STAGING_PG_DOMAINSSvp",
+        "mangledName": "$s12AppInvokeSDK17STAGING_PG_DOMAINSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK17STAGING_PG_DOMAINSSvg",
+            "mangledName": "$s12AppInvokeSDK17STAGING_PG_DOMAINSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "kStaging_PGServerURL",
+        "printedName": "kStaging_PGServerURL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK20kStaging_PGServerURLSSvp",
+        "mangledName": "$s12AppInvokeSDK20kStaging_PGServerURLSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK20kStaging_PGServerURLSSvg",
+            "mangledName": "$s12AppInvokeSDK20kStaging_PGServerURLSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK20kStaging_PGServerURLSSvs",
+            "mangledName": "$s12AppInvokeSDK20kStaging_PGServerURLSSvs",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK20kStaging_PGServerURLSSvM",
+            "mangledName": "$s12AppInvokeSDK20kStaging_PGServerURLSSvM",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "aoaProdUrl",
+        "printedName": "aoaProdUrl",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK10aoaProdUrlSSvp",
+        "mangledName": "$s12AppInvokeSDK10aoaProdUrlSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK10aoaProdUrlSSvg",
+            "mangledName": "$s12AppInvokeSDK10aoaProdUrlSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK10aoaProdUrlSSvs",
+            "mangledName": "$s12AppInvokeSDK10aoaProdUrlSSvs",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK10aoaProdUrlSSvM",
+            "mangledName": "$s12AppInvokeSDK10aoaProdUrlSSvM",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "aoaStagingUrl",
+        "printedName": "aoaStagingUrl",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK13aoaStagingUrlSSvp",
+        "mangledName": "$s12AppInvokeSDK13aoaStagingUrlSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK13aoaStagingUrlSSvg",
+            "mangledName": "$s12AppInvokeSDK13aoaStagingUrlSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK13aoaStagingUrlSSvs",
+            "mangledName": "$s12AppInvokeSDK13aoaStagingUrlSSvs",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK13aoaStagingUrlSSvM",
+            "mangledName": "$s12AppInvokeSDK13aoaStagingUrlSSvM",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "kProduction_PGServerURL",
+        "printedName": "kProduction_PGServerURL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK23kProduction_PGServerURLSSvp",
+        "mangledName": "$s12AppInvokeSDK23kProduction_PGServerURLSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK23kProduction_PGServerURLSSvg",
+            "mangledName": "$s12AppInvokeSDK23kProduction_PGServerURLSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK23kProduction_PGServerURLSSvs",
+            "mangledName": "$s12AppInvokeSDK23kProduction_PGServerURLSSvs",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK23kProduction_PGServerURLSSvM",
+            "mangledName": "$s12AppInvokeSDK23kProduction_PGServerURLSSvM",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "kStaging_PGCallbackURL",
+        "printedName": "kStaging_PGCallbackURL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK22kStaging_PGCallbackURLSSvp",
+        "mangledName": "$s12AppInvokeSDK22kStaging_PGCallbackURLSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK22kStaging_PGCallbackURLSSvg",
+            "mangledName": "$s12AppInvokeSDK22kStaging_PGCallbackURLSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK22kStaging_PGCallbackURLSSvs",
+            "mangledName": "$s12AppInvokeSDK22kStaging_PGCallbackURLSSvs",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK22kStaging_PGCallbackURLSSvM",
+            "mangledName": "$s12AppInvokeSDK22kStaging_PGCallbackURLSSvM",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "kProduction_PGCallbackURL",
+        "printedName": "kProduction_PGCallbackURL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK25kProduction_PGCallbackURLSSvp",
+        "mangledName": "$s12AppInvokeSDK25kProduction_PGCallbackURLSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK25kProduction_PGCallbackURLSSvg",
+            "mangledName": "$s12AppInvokeSDK25kProduction_PGCallbackURLSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK25kProduction_PGCallbackURLSSvs",
+            "mangledName": "$s12AppInvokeSDK25kProduction_PGCallbackURLSSvs",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK25kProduction_PGCallbackURLSSvM",
+            "mangledName": "$s12AppInvokeSDK25kProduction_PGCallbackURLSSvM",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "aioSdkBaseUrlProduction",
+        "printedName": "aioSdkBaseUrlProduction",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK23aioSdkBaseUrlProductionSSvp",
+        "mangledName": "$s12AppInvokeSDK23aioSdkBaseUrlProductionSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK23aioSdkBaseUrlProductionSSvg",
+            "mangledName": "$s12AppInvokeSDK23aioSdkBaseUrlProductionSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "aioSdkBaseUrlStaging",
+        "printedName": "aioSdkBaseUrlStaging",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK20aioSdkBaseUrlStagingSSvp",
+        "mangledName": "$s12AppInvokeSDK20aioSdkBaseUrlStagingSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK20aioSdkBaseUrlStagingSSvg",
+            "mangledName": "$s12AppInvokeSDK20aioSdkBaseUrlStagingSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "PRODUCTION_ROUTER_DOMAIN",
+        "printedName": "PRODUCTION_ROUTER_DOMAIN",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK24PRODUCTION_ROUTER_DOMAINSSvp",
+        "mangledName": "$s12AppInvokeSDK24PRODUCTION_ROUTER_DOMAINSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK24PRODUCTION_ROUTER_DOMAINSSvg",
+            "mangledName": "$s12AppInvokeSDK24PRODUCTION_ROUTER_DOMAINSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "STAGING_ROUTTER_DOMAIN",
+        "printedName": "STAGING_ROUTTER_DOMAIN",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK22STAGING_ROUTTER_DOMAINSSvp",
+        "mangledName": "$s12AppInvokeSDK22STAGING_ROUTTER_DOMAINSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK22STAGING_ROUTTER_DOMAINSSvg",
+            "mangledName": "$s12AppInvokeSDK22STAGING_ROUTTER_DOMAINSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "kStaging_RouterServerURL",
+        "printedName": "kStaging_RouterServerURL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK24kStaging_RouterServerURLSSvp",
+        "mangledName": "$s12AppInvokeSDK24kStaging_RouterServerURLSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK24kStaging_RouterServerURLSSvg",
+            "mangledName": "$s12AppInvokeSDK24kStaging_RouterServerURLSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK24kStaging_RouterServerURLSSvs",
+            "mangledName": "$s12AppInvokeSDK24kStaging_RouterServerURLSSvs",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK24kStaging_RouterServerURLSSvM",
+            "mangledName": "$s12AppInvokeSDK24kStaging_RouterServerURLSSvM",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "kProduction_RouterServerURL",
+        "printedName": "kProduction_RouterServerURL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK27kProduction_RouterServerURLSSvp",
+        "mangledName": "$s12AppInvokeSDK27kProduction_RouterServerURLSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK27kProduction_RouterServerURLSSvg",
+            "mangledName": "$s12AppInvokeSDK27kProduction_RouterServerURLSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK27kProduction_RouterServerURLSSvs",
+            "mangledName": "$s12AppInvokeSDK27kProduction_RouterServerURLSSvs",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK27kProduction_RouterServerURLSSvM",
+            "mangledName": "$s12AppInvokeSDK27kProduction_RouterServerURLSSvM",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "kStaging_RouterCallbackURL",
+        "printedName": "kStaging_RouterCallbackURL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK26kStaging_RouterCallbackURLSSvp",
+        "mangledName": "$s12AppInvokeSDK26kStaging_RouterCallbackURLSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK26kStaging_RouterCallbackURLSSvg",
+            "mangledName": "$s12AppInvokeSDK26kStaging_RouterCallbackURLSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK26kStaging_RouterCallbackURLSSvs",
+            "mangledName": "$s12AppInvokeSDK26kStaging_RouterCallbackURLSSvs",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK26kStaging_RouterCallbackURLSSvM",
+            "mangledName": "$s12AppInvokeSDK26kStaging_RouterCallbackURLSSvM",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "kProduction_RouterCallbackURL",
+        "printedName": "kProduction_RouterCallbackURL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK29kProduction_RouterCallbackURLSSvp",
+        "mangledName": "$s12AppInvokeSDK29kProduction_RouterCallbackURLSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK29kProduction_RouterCallbackURLSSvg",
+            "mangledName": "$s12AppInvokeSDK29kProduction_RouterCallbackURLSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK29kProduction_RouterCallbackURLSSvs",
+            "mangledName": "$s12AppInvokeSDK29kProduction_RouterCallbackURLSSvs",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK29kProduction_RouterCallbackURLSSvM",
+            "mangledName": "$s12AppInvokeSDK29kProduction_RouterCallbackURLSSvM",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "routerSdkBaseUrlProduction",
+        "printedName": "routerSdkBaseUrlProduction",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK26routerSdkBaseUrlProductionSSvp",
+        "mangledName": "$s12AppInvokeSDK26routerSdkBaseUrlProductionSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK26routerSdkBaseUrlProductionSSvg",
+            "mangledName": "$s12AppInvokeSDK26routerSdkBaseUrlProductionSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "routerSdkBaseUrlStaging",
+        "printedName": "routerSdkBaseUrlStaging",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK23routerSdkBaseUrlStagingSSvp",
+        "mangledName": "$s12AppInvokeSDK23routerSdkBaseUrlStagingSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK23routerSdkBaseUrlStagingSSvg",
+            "mangledName": "$s12AppInvokeSDK23routerSdkBaseUrlStagingSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "kStaging_PGtxnStatusURL",
+        "printedName": "kStaging_PGtxnStatusURL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK23kStaging_PGtxnStatusURLSSvp",
+        "mangledName": "$s12AppInvokeSDK23kStaging_PGtxnStatusURLSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK23kStaging_PGtxnStatusURLSSvg",
+            "mangledName": "$s12AppInvokeSDK23kStaging_PGtxnStatusURLSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK23kStaging_PGtxnStatusURLSSvs",
+            "mangledName": "$s12AppInvokeSDK23kStaging_PGtxnStatusURLSSvs",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK23kStaging_PGtxnStatusURLSSvM",
+            "mangledName": "$s12AppInvokeSDK23kStaging_PGtxnStatusURLSSvM",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "kProduction_PGtxnStatusURL",
+        "printedName": "kProduction_PGtxnStatusURL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12AppInvokeSDK26kProduction_PGtxnStatusURLSSvp",
+        "mangledName": "$s12AppInvokeSDK26kProduction_PGtxnStatusURLSSvp",
+        "moduleName": "AppInvokeSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK26kProduction_PGtxnStatusURLSSvg",
+            "mangledName": "$s12AppInvokeSDK26kProduction_PGtxnStatusURLSSvg",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK26kProduction_PGtxnStatusURLSSvs",
+            "mangledName": "$s12AppInvokeSDK26kProduction_PGtxnStatusURLSSvs",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12AppInvokeSDK26kProduction_PGtxnStatusURLSSvM",
+            "mangledName": "$s12AppInvokeSDK26kProduction_PGtxnStatusURLSSvM",
+            "moduleName": "AppInvokeSDK",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppInvokeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppInvokeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AppInvokeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "AppInvokeSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/Ext_Dictionary.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/Ext_Dictionary.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/Ext_Dictionary.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 1,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/Ext_Dictionary.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 1,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 252,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 285,
+      "length": 6,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 13,
+      "value": "\"TXN_FAILURE\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 453,
+      "length": 13,
+      "value": "\"TXN_SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 252,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 285,
+      "length": 6,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 452,
+      "length": 17,
+      "value": "\"SDK_initialized\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 492,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 755,
+      "length": 12,
+      "value": "\"\/ui\/logger\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 924,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1046,
+      "length": 33,
+      "value": "\"application\/json; charset=utf-8\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1146,
+      "length": 33,
+      "value": "\"application\/json; charset=utf-8\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1201,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1432,
+      "length": 27,
+      "value": "\"Error took place \""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1458,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1664,
+      "length": 51,
+      "value": "\"Response HTTP Status code: \""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1714,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1934,
+      "length": 39,
+      "value": "\"Response data string:\n \""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1972,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2280,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2295,
+      "length": 12,
+      "value": "\"AIO_SDK_PG\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2323,
+      "length": 15,
+      "value": "\"eventCategory\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2342,
+      "length": 12,
+      "value": "\"AIO_SDK_PG\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2370,
+      "length": 13,
+      "value": "\"eventAction\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2414,
+      "length": 5,
+      "value": "\"mid\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2442,
+      "length": 9,
+      "value": "\"orderid\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2483,
+      "length": 13,
+      "value": "\"deviceModel\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2540,
+      "length": 6,
+      "value": "\"flow\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2550,
+      "length": 11,
+      "value": "\"AppInvoke\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2577,
+      "length": 4,
+      "value": "\"os\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2585,
+      "length": 5,
+      "value": "\"IOS\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2606,
+      "length": 11,
+      "value": "\"osVersion\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2669,
+      "length": 12,
+      "value": "\"sdkVersion\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2715,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2745,
+      "length": 6,
+      "value": "\"%.0f\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2784,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2805,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2819,
+      "length": 5,
+      "value": "\"SDK\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2840,
+      "length": 12,
+      "value": "\"deviceType\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2856,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2879,
+      "length": 12,
+      "value": "\"eventLabel\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2909,
+      "length": 8,
+      "value": "\"Native\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2933,
+      "length": 5,
+      "value": "\"env\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2942,
+      "length": 19,
+      "value": "\"allinone_sdk_prod\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 418,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 463,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 749,
+      "length": 69,
+      "value": "\"paytm:\/\/merchantPayment?mid=\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 791,
+      "length": 1,
+      "value": "\"&checkUserLoggedIn=\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 812,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 817,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 888,
+      "length": 27,
+      "value": "\"&callbackUrl=\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 914,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "Dictionary",
+      "offset": 1150,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1745,
+      "length": 15,
+      "value": "\"paytmuniqueid\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1804,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1837,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2057,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2066,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2075,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2525,
+      "length": 15,
+      "value": "\"Paytm_H5_Load\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2555,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2631,
+      "length": 16,
+      "value": "\"webview-bridge\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3707,
+      "length": 67,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3724,
+      "length": 1,
+      "value": "\"?mid=\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3748,
+      "length": 1,
+      "value": "\"&orderId=\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3773,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3933,
+      "length": 35,
+      "value": "\"application\/x-www-form-urlencoded\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3990,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4051,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4094,
+      "length": 5,
+      "value": "\"mid\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4119,
+      "length": 9,
+      "value": "\"orderId\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4145,
+      "length": 10,
+      "value": "\"txnToken\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4879,
+      "length": 56,
+      "value": "\"&checkout_product=AIO&sdk_version=\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4934,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEnvironment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 249,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEnvironment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 249,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEnvironment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEnvironment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEnvironment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 606,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Dictionary",
+      "offset": 825,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 851,
+      "length": 13,
+      "value": "\"displayName\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 906,
+      "length": 6,
+      "value": "\"icon\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 947,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 988,
+      "length": 8,
+      "value": "\"scheme\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 1170,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1241,
+      "length": 5,
+      "value": "\":\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1784,
+      "length": 73,
+      "value": "\"window.upiIntent.setUpiIntentApps('\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1853,
+      "length": 5,
+      "value": "\"');\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 2073,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2298,
+      "length": 46,
+      "value": "\"Array convertIntoJSON - \""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2343,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2371,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2485,
+      "length": 26,
+      "value": "\"&source_callback=paytmmp\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Dictionary",
+      "offset": 2713,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2809,
+      "length": 68,
+      "value": "\"getting error in url and urlString = \""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2859,
+      "length": 3,
+      "value": "\" and packageName \""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3031,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3071,
+      "length": 28,
+      "value": "\"\/theia\/api\/v1\/fetchPspApps\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3113,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3187,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3614,
+      "length": 6,
+      "value": "\"head\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3688,
+      "length": 10,
+      "value": "\"txnToken\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3744,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Dictionary",
+      "offset": 3752,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4008,
+      "length": 6,
+      "value": "\"🔴\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4070,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4106,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4146,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 4363,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4367,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4371,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 4502,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4506,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4510,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4799,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4803,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 4878,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4882,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4886,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 4979,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4983,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4987,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5176,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5189,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5203,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5215,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5249,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5281,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5419,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5575,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5907,
+      "length": 19,
+      "value": "\"estimatedProgress\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6134,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6151,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6448,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6517,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6528,
+      "length": 31,
+      "value": "\"Transaction has been canceled\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6762,
+      "length": 19,
+      "value": "\"estimatedProgress\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 6916,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 6967,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 6979,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 7106,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 7275,
+      "length": 19,
+      "value": "\"estimatedProgress\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 7519,
+      "length": 6,
+      "value": "\"Main\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 7596,
+      "length": 9,
+      "value": "\"AIWebVC\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7861,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 8580,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 8640,
+      "length": 11,
+      "value": "\"tokenData\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 8693,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 8924,
+      "length": 10,
+      "value": "\"deeplink\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9127,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9375,
+      "length": 16,
+      "value": "\"paytmrouter:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9419,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9487,
+      "length": 63,
+      "value": "\"window.routerSDK.isPaytmAppInstalledAndSupportedIos(\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9542,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9547,
+      "length": 1,
+      "value": "\");\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9645,
+      "length": 64,
+      "value": "\"window.routerSDK.isPaytmAppInstalledAndSupportedIos(\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9700,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9706,
+      "length": 1,
+      "value": "\");\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9907,
+      "length": 48,
+      "value": "\"window.routerSDK.invokePaytmAppIos('\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9946,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9951,
+      "length": 5,
+      "value": "\"');\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10001,
+      "length": 258,
+      "value": "\"paytmrouter:\/\/routerpayment?txnToken=\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10056,
+      "length": 1,
+      "value": "\"&orderId=\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10081,
+      "length": 1,
+      "value": "\"&mid=\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10105,
+      "length": 1,
+      "value": "\"&amount=\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10128,
+      "length": 1,
+      "value": "\"&mobilehash=&mobileVerificationRequired=false&isRouterSdk=\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10221,
+      "length": 1,
+      "value": "\"&callbackUrl=\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10255,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10258,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10373,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Dictionary",
+      "offset": 10465,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10767,
+      "length": 5,
+      "value": "\"mid\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10790,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10813,
+      "length": 9,
+      "value": "\"orderId\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11102,
+      "length": 52,
+      "value": "\"window.routerSDK.fetchAppDataIos('\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11150,
+      "length": 5,
+      "value": "\"');\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11350,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11450,
+      "length": 25,
+      "value": "\"Check Paytm App Support\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11505,
+      "length": 18,
+      "value": "\"Invoke Paytm App\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11546,
+      "length": 14,
+      "value": "\"Get App Data\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11583,
+      "length": 26,
+      "value": "\"Execute setUpiIntentApps\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11634,
+      "length": 16,
+      "value": "\"Invoke PSP app\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11450,
+      "length": 25,
+      "value": "\"Check Paytm App Support\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11505,
+      "length": 18,
+      "value": "\"Invoke Paytm App\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11546,
+      "length": 14,
+      "value": "\"Get App Data\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11583,
+      "length": 26,
+      "value": "\"Execute setUpiIntentApps\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11634,
+      "length": 16,
+      "value": "\"Invoke PSP app\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11841,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 11914,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 12055,
+      "length": 20,
+      "value": "\"sendSignalToNative\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12579,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 13292,
+      "length": 16,
+      "value": "\"🔶 Finish - \""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 13413,
+      "length": 45,
+      "value": "\"document.getElementById('response').value\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 13733,
+      "length": 8,
+      "value": "\"STATUS\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13969,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14151,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14217,
+      "length": 13,
+      "value": "\"TXN_FAILURE\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14282,
+      "length": 6,
+      "value": "\"fail\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14421,
+      "length": 20,
+      "value": "\"Paytm_H5_Intercept\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14641,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14845,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14915,
+      "length": 13,
+      "value": "\"TXN_FAILURE\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14984,
+      "length": 6,
+      "value": "\"fail\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 15131,
+      "length": 20,
+      "value": "\"Paytm_H5_Intercept\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 15976,
+      "length": 15,
+      "value": "\"Response_Back\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 16005,
+      "length": 11,
+      "value": "\"backPress\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 16093,
+      "length": 25,
+      "value": "\"🔶 decidePolicyFor - \""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 16460,
+      "length": 39,
+      "value": "\"🔶 didStartProvisionalNavigation - \""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 16944,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 17072,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17203,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 17494,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 17624,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17701,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 17775,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17849,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17910,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 18227,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 18546,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 18695,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18845,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 19306,
+      "length": 15,
+      "value": "\"paytmcallback\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19344,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19374,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19480,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19534,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 19692,
+      "length": 8,
+      "value": "\"STATUS\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19904,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20174,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20688,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Dictionary",
+      "offset": 20772,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20920,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Dictionary",
+      "offset": 21022,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21446,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21489,
+      "length": 11,
+      "value": "\"tokenType\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21504,
+      "length": 11,
+      "value": "\"TXN_TOKEN\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21548,
+      "length": 10,
+      "value": "\"txnToken\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21600,
+      "length": 5,
+      "value": "\"mid\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21639,
+      "length": 9,
+      "value": "\"orderId\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21679,
+      "length": 23,
+      "value": "\"isCallbackUrlRequired\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21706,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21772,
+      "length": 6,
+      "value": "\"head\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21806,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 22097,
+      "length": 29,
+      "value": "\"\/theia\/v1\/transactionStatus\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 22251,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 22286,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 22326,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22379,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 22573,
+      "length": 6,
+      "value": "\"🔴\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 23047,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 23585,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 23630,
+      "length": 9,
+      "value": "\"txnInfo\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 23976,
+      "length": 43,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 23983,
+      "length": 1,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 24018,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 24091,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 24300,
+      "length": 7,
+      "value": "\"-._* \""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 24459,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 24470,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 24515,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 24526,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 24540,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 19,
+      "value": "\"securegw.paytm.in\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 25,
+      "value": "\"securegw-stage.paytm.in\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 31,
+      "value": "\"\/theia\/api\/v1\/showPaymentPage\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 76,
+      "value": "\"https:\/\/securegw.paytm.in\/checkoutjs\/1685\/redirection\/checkout.router.html\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 521,
+      "length": 80,
+      "value": "\"https:\/\/stage-router.paytm.in\/checkoutjs\/2071\/redirection\/checkout.router.html\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 693,
+      "length": 31,
+      "value": "\"\/theia\/api\/v1\/showPaymentPage\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 785,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 818,
+      "length": 22,
+      "value": "\"\/theia\/paytmCallback\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 907,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 943,
+      "length": 22,
+      "value": "\"\/theia\/paytmCallback\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1005,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1073,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1162,
+      "length": 17,
+      "value": "\"router.paytm.in\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1220,
+      "length": 23,
+      "value": "\"stage-router.paytm.in\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1297,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1335,
+      "length": 31,
+      "value": "\"\/theia\/api\/v1\/showPaymentPage\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1426,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1466,
+      "length": 31,
+      "value": "\"\/theia\/api\/v1\/showPaymentPage\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1562,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1600,
+      "length": 22,
+      "value": "\"\/theia\/paytmCallback\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1693,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1733,
+      "length": 22,
+      "value": "\"\/theia\/paytmCallback\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1797,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1872,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1929,
+      "length": 14,
+      "value": "\"Router_1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2006,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2039,
+      "length": 29,
+      "value": "\"\/theia\/v1\/transactionStatus\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2137,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Documents\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2173,
+      "length": 29,
+      "value": "\"\/theia\/v1\/transactionStatus\""
+    },
+    {
+      "filePath": "\/Users\/aayushimishra\/Library\/Developer\/Xcode\/DerivedData\/AppInvokeSDK-fskskonuofmpfwbrhcxdfmcebnsi\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AppInvokeSDK\/IntermediateBuildFilesPath\/AppInvokeSDK.build\/Release-iphoneos\/AppInvokeSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 7,
+      "value": "\"cross\""
+    }
+  ]
+}
